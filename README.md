@@ -1,8 +1,8 @@
 # TRI-25
 Repository containing all the work I did at my TRI internship with instructions on how to reproduce the work.
 
-# Compiling SYCL Proximity Engine
-TODO
+# Dependencies
+The SYCL Proximity Engine requires installing the [Intel OneAPI Base Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html), [Nvidia GPU Drivers and the Nvidia CUDA Toolkit](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) (tested uptil 12.8) and the Nvidia backend from CodePlay. We recommend following the instructions [here](https://developer.codeplay.com/products/oneapi/nvidia/2025.2.0/guides/get-started-guide-nvidia) for installing all the dependencies. 
 
 # Reproducing Benchmarks
 ## Clutter
@@ -88,6 +88,7 @@ To only run the CPU benchmark, run
 bash anzu_sim_cpu.sh
 ```
 # Plotting results
-TODO
+All the plotting scripts can be found in [Huzaifa's Drake fork](https://github.com/Huzaifg/drake/tree/feature/bvh_broad_phase) under the [performance_plotting_scripts](https://github.com/Huzaifg/drake/tree/feature/bvh_broad_phase/performance_plotting_scripts) folder.
+TODO - Add shell script to run all plotting scripts at once
 
 
