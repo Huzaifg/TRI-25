@@ -52,7 +52,7 @@ To only run the CPU benchmark, run
 bash ‎object_scaling_custom_benchmark_cpu.sh
 ```
 ## Barret Hand
-The Barret Hand benchmark tests the SYCL Proximity engine on the Barrent hand with both discrete and continuous solvers. It exists on branch `sycl/gears_convex_int` in [Joe's drake_examples repository](https://github.com/joemasterjohn/drake_examples/tree/sycl/gears_convex_int). Clone the repository and checkout the correct branch.  
+The Barret Hand benchmark tests the SYCL Proximity engine on the Barrent hand with both discrete and continuous solvers. It exists on branch `sycl/gears_convex_int` in [Joe's Drake_examples repository](https://github.com/joemasterjohn/drake_examples/tree/sycl/gears_convex_int). Clone the repository and checkout the correct branch.  
 Then, install [Vince's Drake fork](https://github.com/vincekurtz/drake/tree/convex_integrator_compliant_clutter_sycl) on the `convex_integrator_compliant_clutter_sycl` branch. Finally, make sure you set the correct `PYTHONPATH`.
 ```
 export PYTHONPATH=<path_to_vince_fork>/build/install/lib/python3.10/site-packages:${PYTHONPATH}
@@ -89,6 +89,6 @@ bash anzu_sim_cpu.sh
 ```
 # Plotting results
 All the plotting scripts can be found in [Huzaifa's Drake fork](https://github.com/Huzaifg/drake/tree/feature/bvh_broad_phase) under the [performance_plotting_scripts](https://github.com/Huzaifg/drake/tree/feature/bvh_broad_phase/performance_plotting_scripts) folder.
-TODO - Add shell script to run all plotting scripts at once
+You can use the utility script [plot_all.sh](https://github.com/Huzaifg/drake/blob/feature/bvh_broad_phase/plot_all.sh) in [Huzaifa's Drake fork](https://github.com/Huzaifg/drake/tree/feature/bvh_broad_phase) to generate all the plots for each of the benchmarks. This script checks for the right data folders in the root of [Huzaifa's Drake fork](https://github.com/Huzaifg/drake/tree/feature/bvh_broad_phase). These data folders need to be manually moved from where the benchmark was run.
 
 
