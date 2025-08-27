@@ -115,6 +115,6 @@ Over the course of the internship, I wrote a few docs. Here is a list with links
 1) [Profiling SYCL Kernels](https://drive.google.com/file/d/19UMRKk6EqVKKoD1_cJaF4FdWXNs68t76/view?usp=sharing)
 2) [Profiling a SYCL Application](https://drive.google.com/file/d/1TrBd0rWDrXwQicLIW2CEecmUoV0fqz0G/view?usp=sharing)
 3) [Rough literature review for trees on GPU](https://drive.google.com/file/d/1ytM9sFw8T-cydKTOBILxMYFaMOGs8cma/view?usp=sharing)
-4) SYCL Learnings
+4) [SYCL Learnings](https://drive.google.com/file/d/14zbojIHOGbImTdLG4GBgBqXBI5gS7pRz/view?usp=sharing)
 
 
